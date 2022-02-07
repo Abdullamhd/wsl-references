@@ -2,6 +2,14 @@ WSL References
 ---
 ---
 
+## generic wsl commands 
+- finding running distro 
+``` bash 
+wsl --list --running 
+```
+
+---
+
 ## How to make backup of existing Distro 
 
 1- Get a full list of distro ` wsl -l -v`
@@ -11,3 +19,24 @@ WSL References
  wsl --export (distribution) (filename.tar)
 
 ```
+
+---
+## How to restore the wsl distro 
+
+```bash
+wsl --import <DistributionName> <InstallLocation> <FileName>
+
+```
+
+
+---
+
+
+## How to login to wsl with specific Username 
+
+```bash
+wsl -u <username> -d <DistroName>
+```
+
+
+
