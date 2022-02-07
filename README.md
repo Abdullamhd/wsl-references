@@ -40,3 +40,12 @@ wsl -u <username> -d <DistroName>
 
 
 
+## How to delete WSL Distro 
+1- get the list of distros (for running stoped distros )
+```bash
+wsl -l -v
+```
+2- Run the following command with distro name
+```bash
+wsl --unregister <DistroName>
+```
