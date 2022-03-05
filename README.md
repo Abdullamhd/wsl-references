@@ -49,3 +49,9 @@ wsl -l -v
 ```bash
 wsl --unregister <DistroName>
 ```
+
+## Login with specific user and folder 
+
+``` wsl -u abdullah -d MLVision --cd /home/abdullah ``` 
+
+#### We can then use this above command as shortcut 
